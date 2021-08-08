@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Libreria de libros y vivero. Venta de libros y plantas, por separado o en combos relacionados.">
+        <meta name="keywords"  content="PLANTA, PLANTAS, LIBROS, LEER, LIBRO, VENTA, COMPRAR, AMBIENTE, AMBIENTES, BIBLIOTECA, BIBLIOTECAS, JARDIN">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        <title>Contacto - ARBOL DE LIBROS</title>
+    </head>
+<body class="container">
+    <header class="row overflow-hidden header--background">
+            <div class="col-md-2">
+                <img class="mx-auto img-fluid" src="./imagenes/logo.png" alt="logo">
+            </div>
+    
+            <div class="col-md-10">
+                <h1 class="text-center header__titulo--font">ARBOL DE LIBROS</h1>
+            </div>
+    </header>
+        
+    <section class="container row overflow-hidden">
+        <div class="col-md-2">
+            <div class=" container-fluid row ">  
+                <div class="navbar nav-pills navbar-expand-lg navbar-dark ">
+                    <button class="navbar-toggler menu__button--background" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="plantaLibros.html">PlantaLibros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="libros.html" tabindex="-1">Libros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Plantas
+                                </a>
+                                    <ul class="dropdown-menu menu__plantas--dropdown" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="plantas.html">Interior</a></li>
+                                        <li><a class="dropdown-item" href="plantas.html">Exterior</a></li>
+                                        <li><a class="dropdown-item" href="plantas.html">Con flores</a></li>
+                                        <li><a class="dropdown-item" href="plantas.html">De huerta</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contacto.html" tabindex="-1">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-4 mx-auto container contacto">
+            <h3>Formulario de Contacto</h3>
+            <form action="contacto.php" method="GET" enctype="text/plain">
+                <div  class="row">
+                    <label for="inputNombre">Nombre</label> <input type="text" id="inputContacto" name="inputNombre" value="">
+                    <label for="inputApellido">Apellido</label> <input type="text" id="inputContacto" name="inputApellido" value="">
+                </div>
+                <div class="row ">
+                    <label for="inputTel">Telefono</label> <input type="tel" id="inputContacto" name="inputTel" value="">
+                    <label for="inputEmail">E-Mail</label> <input type="email" id="inputContacto" name="inputEmail" value="">
+                    <label for="novedades">Queres recibir nuestras novedades por mail?</label> <input type="radio" name="novedades" value=""> </p>
+                </div>
+                <div class="row">
+                    <label>Donde vivis?</label>
+                        <select>
+                            <option>CABA</option>
+                            <option>GBA</OPtion>
+                            <option>Resto del pais</OPtion>
+                        </select>
+                </div>
+                <div class="row">
+                    <label for="mensaje">Mensaje</label>
+                        <textarea></textarea>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar formulario">
+                </div>
+            </form>
+    </section>
+
+    <footer id="footer--margin" class="row overflow-hidden container-fluid bg-success">
+        <div class="col-md-4 text-center">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./plantaLibros.html">PlantaLibros</a></li>
+                <li><a href="./libros.html">Libros</a></li>
+                <li><a href="./plantas.html">Plantas</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    
+        <div class="col-md-4 text-center">
+            <a href="https://www.instagram.com/?hl=es">Instagram</a>
+        </div>
+    
+        <div class="col-md-4 text-center">
+            <a href="https://es-la.facebook.com/">Facebook</a>
+        </div>
+    </footer>
+    
+    <script src="./js/bootstrap.js"> </script>
+</body>
+</html>

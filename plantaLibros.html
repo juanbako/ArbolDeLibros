@@ -1,0 +1,149 @@
+    <!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Libreria de libros y vivero. Venta de libros y plantas, por separado o en combos relacionados.">
+        <meta name="keywords"  content="PLANTA, PLANTAS, LIBROS, LEER, LIBRO, VENTA, COMPRAR, AMBIENTE, AMBIENTES, BIBLIOTECA, BIBLIOTECAS, JARDIN">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        <title>Combos - ARBOL DE LIBROS</title>
+    </head>
+<body class="container">
+    <header class="row overflow-hidden header--background">
+        <div class="col-sm-2">
+            <img class="mx-auto img-fluid" src="./imagenes/logo.png" alt="logo">
+        </div>
+
+        <div class="col-sm-10">
+            <h1 class="text-center header__titulo--font">ARBOL DE LIBROS</h1>
+        </div>
+    </header>
+
+    <section class="container row overflow-hidden">
+        <div class="col-md-2">
+            <div class=" container-fluid row">    
+                <div class="navbar nav-pills navbar-expand-lg navbar-dark ">
+                    <button class="navbar-toggler menu__button--background" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="plantaLibros.html">PlantaLibros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="libros.html" tabindex="-1">Libros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Plantas
+                                </a>
+                                    <ul class="dropdown-menu menu__plantas--dropdown" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="plantas.html">Interior</a></li>
+                                        <li><a class="dropdown-item" href="plantas.html">Exterior</a></li>
+                                        <li><a class="dropdown-item" href="plantas.html">Con flores</a></li>
+                                        <li><a class="dropdown-item" href="plantas.html">De huerta</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html" tabindex="-1">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="col-md-10 container plantaLibros">
+            <nav class= "row" id="plantaLibros__buscador">
+                <div class="plantaLibros_titulos text-center">
+                    <h4>Combina las experiencias!!</h4>
+                    <h6>Selecciona lo que quieras y nosotros hacemos el resto.</h6>
+                </div>
+                <div class="col-md-4 buscador__button--margin">
+                    <label>Tipo de planta</label>
+                    <select>
+                        <option>De interior</option>
+                        <option>De exterior</option>
+                    </select>
+                </div>
+                <div class="col-md-4 buscador__button--margin">
+                    <label>Libro</label>
+                    <input type="text">
+                </div>   
+                <div class="col-md-4 buscador__button--margin">
+                    <input type="submit" value="Combinar">
+                </div>
+            </nav>
+
+            <div class="row">
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/comboA.jpg" class="card-img-top" alt="combo">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo A</h5>
+                        <p class="card-text">Descripcion del combo</p>
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/comboB.jpg" class="card-img-top" alt="combo">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo B</h5>
+                        <p class="card-text">Descripcion del combo</p>
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/comboC.jpg" class="card-img-top" alt="combo">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo C</h5>
+                        <p class="card-text">Descripcion del combo</p>
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/comboD.jpg" class="card-img-top" alt="combo">
+                    <div class="card-body">
+                        <h5 class="card-title">Combo D</h5>
+                        <p class="card-text">Descripcion del combo</p>
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+        
+    <footer id="footer--margin" class="row overflow-hidden container-fluid bg-success">
+        <div class="col-md-4 text-center">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./plantaLibros.html">PlantaLibros</a></li>
+                <li><a href="./libros.html">Libros</a></li>
+                <li><a href="./plantas.html">Plantas</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <a href="https://www.instagram.com/?hl=es">Instagram</a>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <a href="https://es-la.facebook.com/">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="./js/bootstrap.js"> </script>
+</body>
+</html>

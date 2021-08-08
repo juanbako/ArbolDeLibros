@@ -1,0 +1,244 @@
+/*-------HEADER-------*/
+.header__titulo--font {
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header--background {
+    background-image: url(../imagenes/headerTop.jpg);
+    max-width: 100%;
+    height: auto;
+    color: #fd7e14;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 0px 25px 0px;
+}
+
+/*-------FOOTER-------*/
+footer {
+    div {
+        a {
+            color: rgb(165, 162, 162);
+            text-decoration: none;
+        }
+    }
+}
+
+#footer--margin {
+    margin-top: 25px;
+}
+
+.footer__logo {
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+/*-------GENERAL-------*/   
+.menu__button--background {
+    background-color: green;
+}
+
+ul {
+    list-style: none;
+        
+        li {
+            transition: all;
+        }
+
+        :hover {
+            font-weight: bold;
+        
+            ul {
+                display:block;
+            }
+        }
+
+        ul {
+            position: absolute;
+            display: none;
+        
+            li {
+                display: block;
+            
+                a {
+                    width: max-content;
+                }
+            }
+        }
+} 
+
+.menu__plantas--dropdown {
+    position: relative;
+    display: none;
+}
+
+.buscador__button--margin {
+    margin-top: 15px;
+}
+
+.index__presentacion--margin {
+    margin: 15px;
+}
+
+.accordion-button {
+    background-color: rgb(150, 187, 150);
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: rgb(103, 141, 103);
+}
+/*-------PLANTALIBROS-------*/
+#plantaLibros__buscador {
+    height: 160px;
+    background-image: url(../imagenes/fondoBuscador.jpg);
+    background-position: center;
+    background-size: 100%;
+    font-size: 1.1rem;
+    font-family: 'Encode Sans SC', sans-serif;
+    color: white;
+}
+
+select { 
+    margin: auto;
+    width: auto;
+    transition: all .5s;   
+        &:hover {
+            width: auto;
+            height: auto;
+            font-size: 1.3rem;
+        }    
+}
+
+.plantaLibros__cards--margin {
+    padding: 10px;
+    margin: 15px;
+}
+
+.plantaLibros_titulos {
+    margin-bottom: 10px;
+    text-shadow: 1px 1px rgb(83, 110, 95);
+}
+
+/*-------PLANTAS-------*/
+.plantas__carousel--background {
+    background-color: rgb(150, 187, 150)
+}
+
+.plantas__carousel--aling {
+    div {
+        img {
+            margin: auto;
+        }
+    }
+    
+}
+
+.plantas__carousel--textcolor {
+    div {
+        div {
+            div {
+                color: black;
+            }    
+        }
+    }
+}
+
+.plantas__carousel--textbackground {
+    div {
+        div {
+            div {
+                background-color: rgba(150, 187, 150, 0.7);
+            }    
+        }
+    }
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgb(24, 23, 23);
+    opacity: 1;
+}
+
+/*-------LIBROS-------*/
+#libros__buscador {
+    height: 200px;
+    background-image: url(../imagenes/fondoBuscador.jpg);
+    background-position: center;
+    background-size: 100%;
+    font-size: 1.1rem;
+    font-family: 'Encode Sans SC', sans-serif;
+    color: white;
+}
+
+input { 
+    margin: auto;
+    width: fit-content;
+    transition: all .5s;   
+        &:hover {
+            width: auto;
+            height: auto;
+            font-size: 1.1rem;
+        }    
+}
+
+.buscador__button--margin {
+    margin-top: 15px;
+}
+
+.libros__cards--margin {
+    margin: 15px;
+}
+
+/*-------MEDIA QUERIES-------*/
+
+@media only screen and (max-width: 768px) {   
+    .header__titulo--font {
+        font-size: 3rem;
+    }
+
+    .header--background {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .plantaLibros__boton--margin {
+        margin-top: 8px;
+    }
+
+    #plantaLibros__buscador {
+            height: 150px;
+            font-size: .7rem;   
+    }
+
+    select {
+        :hover {
+            font-size: .8rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 361px) {   
+    .header__titulo--font {
+        font-size: 2rem;
+    }
+
+    .header--background {
+        margin: 0px 0px 3px 0px;
+    }
+
+    #libros__buscador {
+        height: 250px;
+        font-size: 1rem;
+    }
+
+    .plantaLibros_titulos {
+        margin-bottom: 3px;
+            h6 {
+                display: none;
+            }
+    }
+
+    #plantaLibros__buscador {
+        height: 200px;
+    }
+}
