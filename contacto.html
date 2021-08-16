@@ -62,10 +62,10 @@
             </div>
         </div>
     
-        <div class="col-md-4 mx-auto container contacto">
+        <div class="col-md-10 contacto">
             <h3>Formulario de Contacto</h3>
-            <form action="contacto.php" method="GET" enctype="text/plain">
-                <div  class="row">
+            <form action="contacto.php" method="GET" enctype="text/plain" class="col-md-5 contacto__formulario">
+                <div class="row">
                     <label for="inputNombre">Nombre</label> <input type="text" id="inputContacto" name="inputNombre" value="">
                     <label for="inputApellido">Apellido</label> <input type="text" id="inputContacto" name="inputApellido" value="">
                 </div>
@@ -93,7 +93,7 @@
             </form>
     </section>
 
-    <footer id="footer--margin" class="row overflow-hidden bg-success">
+    <footer id="footer--margin" class="row overflow-hidden container-fluid bg-success">
         <div class="col-md-4 text-center">
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
@@ -104,12 +104,10 @@
             </ul>
         </div>
     
-        <div class="col-md-4 text-center">
-            <a href="https://www.instagram.com/?hl=es">Instagram</a>
-        </div>
-    
-        <div class="col-md-4 text-center">
-            <a href="https://es-la.facebook.com/">Facebook</a>
+        <div class="col-md-8 footer__redes">
+            <p>SEGUINOS</p>
+            <a href="https://www.instagram.com/?hl=es"><img class="footer__logo" src="./imagenes/inst.png" alt="Instagram"></a>
+            <a href="https://es-la.facebook.com/"><img class="footer__logo" src="./imagenes/face.png" alt="Facebook"></a>
         </div>
     </footer>
     
