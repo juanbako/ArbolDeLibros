@@ -15,20 +15,27 @@
 
 /*-------FOOTER-------*/
 footer {
-    div {
-        a {
-            color: black;
-            text-decoration: none;
-        }
+    color: white;
+    text-decoration: none;
+
+    p {
+        color: black;
+        font-weight: bold;
+        font-size: 1.5rem;
     }
+}
+
+.footer__redes {
+    text-align: center;
 }
 
 #footer--margin {
     margin-top: 25px;
+    padding: 20px;
 }
 
 .footer__logo {
-    width: 10%;
+    width: auto;
     align-items: center;
     justify-content: center;
     margin-top: 25px;
@@ -68,11 +75,6 @@ ul {
         }
 } 
 
-.menu__plantas--dropdown {
-    position: relative;
-    display: none;
-}
-
 .buscador__button--margin {
     margin-top: 15px;
 }
@@ -89,6 +91,7 @@ ul {
     color: black;
     background-color: rgb(103, 141, 103);
 }
+
 /*-------PLANTALIBROS-------*/
 #plantaLibros__buscador {
     height: 160px;
@@ -188,6 +191,17 @@ input {
 
 .libros__cards--margin {
     margin: 15px;
+}
+
+/*-------CONTACTO-------*/
+.contacto {
+    background-image: url(../imagenes/contacto.jpg);
+}
+
+.contacto__formulario {
+    input, select, textarea {
+        width: fit-content;
+    }
 }
 
 /*-------MEDIA QUERIES-------*/

@@ -12,15 +12,23 @@
   margin: 0px 0px 25px 0px; }
 
 /*-------FOOTER-------*/
-footer div a {
-  color: black;
+footer {
+  color: white;
   text-decoration: none; }
+  footer p {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem; }
+
+.footer__redes {
+  text-align: center; }
 
 #footer--margin {
-  margin-top: 25px; }
+  margin-top: 25px;
+  padding: 20px; }
 
 .footer__logo {
-  width: 10%;
+  width: auto;
   align-items: center;
   justify-content: center;
   margin-top: 25px; }
@@ -44,10 +52,6 @@ ul {
       display: block; }
       ul ul li a {
         width: max-content; }
-
-.menu__plantas--dropdown {
-  position: relative;
-  display: none; }
 
 .buscador__button--margin {
   margin-top: 15px; }
@@ -130,6 +134,13 @@ input {
 
 .libros__cards--margin {
   margin: 15px; }
+
+/*-------CONTACTO-------*/
+.contacto {
+  background-image: url(../imagenes/contacto.jpg); }
+
+.contacto__formulario input, .contacto__formulario select, .contacto__formulario textarea {
+  width: fit-content; }
 
 /*-------MEDIA QUERIES-------*/
 @media only screen and (max-width: 768px) {
