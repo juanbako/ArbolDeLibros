@@ -68,11 +68,6 @@ ul {
         }
 } 
 
-.menu__plantas--dropdown {
-    position: relative;
-    display: none;
-}
-
 .buscador__button--margin {
     margin-top: 15px;
 }
@@ -136,22 +131,14 @@ select {
 }
 
 .plantas__carousel--textcolor {
-    div {
-        div {
-            div {
-                color: black;
-            }    
-        }
+    .carousel-caption {
+        color: black;
     }
 }
 
 .plantas__carousel--textbackground {
-    div {
-        div {
-            div {
-                background-color: rgba(150, 187, 150, 0.7);
-            }    
-        }
+    .carousel-caption {
+        background-color: rgba(150, 187, 150, 0.7);
     }
 }
 
@@ -161,6 +148,10 @@ select {
 }
 
 /*-------LIBROS-------*/
+.libros {
+    padding: auto;
+}
+
 #libros__buscador {
     height: 200px;
     background-image: url(../imagenes/fondoBuscador.jpg);
@@ -243,10 +234,18 @@ input {
     }
     
     .libros__cards--imgSize {
-        width: 40%;
+        width: 35%;
     }
 
+    .libros__cards {
+        img {
+            &:hover {
+                width: 60%;
+            }
+        }
+    }
     .libros__cards--margin {
-        margin: 5px;
+        margin: 3px;
+        width: fit-content;
     }
 }
