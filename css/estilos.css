@@ -145,6 +145,11 @@ input {
 .contacto__formulario input, .contacto__formulario select, .contacto__formulario textarea {
   width: fit-content; }
 
+.contacto__formulario textarea {
+  margin: 0px 0px 20px 85px;
+  width: 300px;
+  height: 100px; }
+
 /*-------MEDIA QUERIES-------*/
 @media only screen and (max-width: 768px) {
   .header__titulo--font {
