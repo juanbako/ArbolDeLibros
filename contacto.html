@@ -26,7 +26,7 @@
         
     <nav class="container row overflow-hidden">
         <div class="col-md-2">
-            <div class=" container-fluid row ">  
+            <div class=" container-fluid row">  
                 <div class="navbar nav-pills navbar-expand-lg navbar-dark ">
                     <button class="navbar-toggler menu__button--background" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -94,21 +94,34 @@
         </div>
     </nav>
 
-    <footer id="footer--margin" class="row overflow-hidden container-fluid bg-success">
-        <div class="col-md-4 text-center">
-            <ul>
+    <footer id="footer--margin" class="row overflow-hidden container-fluid">
+        <div class="col-md-3">
+            <p>NAVEGACION</p>
+            <ul class="footer__lista">
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./plantaLibros.html">PlantaLibros</a></li>
                 <li><a href="./libros.html">Libros</a></li>
                 <li><a href="./plantas.html">Plantas</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+                <li id="actualpag"><a href="./contacto.html">Contacto</a></li>
             </ul>
         </div>
-    
-        <div class="col-md-8 footer__redes">
-            <p>SEGUINOS</p>
-            <a href="https://www.instagram.com/?hl=es"><img class="footer__logo" src="./imagenes/inst.png" alt="Instagram"></a>
-            <a href="https://es-la.facebook.com/"><img class="footer__logo" src="./imagenes/face.png" alt="Facebook"></a>
+        
+        <div class="col-md-3 text-center">
+            <P>MEDIOS DE PAGO</P>
+            <img src="./imagenes/footer/mediosDePago.png" alt="medios de pago">
+        </div>
+
+        <div class="col-md-3">
+            <p>REDES SOCIALES</p>
+            <a href="https://www.instagram.com/?hl=es"><img class="footer__redes" src="./imagenes/footer/inst.png" alt="Instagram"></a>
+            <a href="https://es-la.facebook.com/"><img class="footer__redes" src="./imagenes/footer/face.png" alt="Facebook"></a>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <p>CONTACTO</p>
+            <p id="footer__contacto">Celular: 155-4502-xxxx</p>
+            <p id="footer__contacto">Mail: arboldelibros@gmail.com</p>
+
         </div>
     </footer>
     
