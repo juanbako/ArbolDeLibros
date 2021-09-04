@@ -85,37 +85,57 @@
             </nav>
 
             <div class="row">
-                <div class="col-md-2 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
-                    <img src="./imagenes/combos/comboA.jpg" class="card-img-top" alt="combo">
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/chicaDelMilagro.png" class="card-img-top" alt="combo">
                     <div class="card-body">
-                        <h5 class="card-title">Combo A</h5>
+                        <h5 class="card-title">Chica del del milagro</h5>
                         <p class="card-text">Descripcion del combo</p>
                         <a href="#" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
 
-                <div class="col-md-2 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
-                    <img src="./imagenes/combos/comboB.jpg" class="card-img-top" alt="combo">
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/losSorrentinos.jpg" class="card-img-top" alt="combo">
                     <div class="card-body">
-                        <h5 class="card-title">Combo B</h5>
+                        <h5 class="card-title">Los sorrentinos</h5>
                         <p class="card-text">Descripcion del combo</p>
                         <a href="#" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
                 
-                <div class="col-md-2 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
-                    <img src="./imagenes/combos/comboC.jpg" class="card-img-top" alt="combo">
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/elRio.jpg" class="card-img-top" alt="combo">
                     <div class="card-body">
-                        <h5 class="card-title">Combo C</h5>
+                        <h5 class="card-title">El rio</h5>
                         <p class="card-text">Descripcion del combo</p>
                         <a href="#" class="btn btn-success">Comprar</a>
                     </div>
                 </div>
 
-                <div class="col-md-2 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
-                    <img src="./imagenes/combos/comboD.jpg" class="card-img-top" alt="combo">
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/cuentosDelTropico.png" class="card-img-top" alt="combo">
                     <div class="card-body">
-                        <h5 class="card-title">Combo D</h5>
+                        <h5 class="card-title">Cuentos del tropico</h5>
+                        <p class="card-text">Descripcion del combo</p>
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/hospitalDeRanas.jpg" class="card-img-top" alt="combo">
+                    <div class="card-body">
+                        <h5 class="card-title">Quien se hara cargo del hospital de ranas</h5>
+                        <p class="card-text">Descripcion del combo</p>
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
+                    <img src="./imagenes/combos/laVidaEstaEnOtraParte.jpg" class="card-img-top" alt="combo">
+                    <div class="card-body">
+                        <h5 class="card-title">La vida esta en otra parte</h5>
                         <p class="card-text">Descripcion del combo</p>
                         <a href="#" class="btn btn-success">Comprar</a>
                     </div>
@@ -124,21 +144,34 @@
         </section>
     </nav>
         
-    <footer id="footer--margin" class="row overflow-hidden container-fluid bg-success">
-        <div class="col-md-4 text-center">
-            <ul>
+    <footer id="footer--margin" class="row overflow-hidden container-fluid">
+        <div class="col-md-3">
+            <p>NAVEGACION</p>
+            <ul class="footer__lista">
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./plantaLibros.html">PlantaLibros</a></li>
+                <li id="actualpag"><a href="./plantaLibros.html">PlantaLibros</a></li>
                 <li><a href="./libros.html">Libros</a></li>
                 <li><a href="./plantas.html">Plantas</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </div>
-    
-        <div class="col-md-8 footer__redes">
-            <p>SEGUINOS</p>
-            <a href="https://www.instagram.com/?hl=es"><img class="footer__logo" src="./imagenes/inst.png" alt="Instagram"></a>
-            <a href="https://es-la.facebook.com/"><img class="footer__logo" src="./imagenes/face.png" alt="Facebook"></a>
+        
+        <div class="col-md-3 text-center">
+            <P>MEDIOS DE PAGO</P>
+            <img src="./imagenes/footer/mediosDePago.png" alt="medios de pago">
+        </div>
+
+        <div class="col-md-3">
+            <p>REDES SOCIALES</p>
+            <a href="https://www.instagram.com/?hl=es"><img class="footer__redes" src="./imagenes/footer/inst.png" alt="Instagram"></a>
+            <a href="https://es-la.facebook.com/"><img class="footer__redes" src="./imagenes/footer/face.png" alt="Facebook"></a>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <p>CONTACTO</p>
+            <p id="footer__contacto">Celular: 155-4502-xxxx</p>
+            <p id="footer__contacto">Mail: arboldelibros@gmail.com</p>
+
         </div>
     </footer>
 
