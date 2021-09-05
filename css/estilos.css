@@ -4,12 +4,15 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .header--background {
-  background-image: url(../imagenes/headerTop.jpg);
+  background-image: url(../imagenes/headerTop.png);
   max-width: 100%;
   height: auto;
   color: #fd7e14;
   font-family: 'Courier New', Courier, monospace;
   margin: 0px 0px 25px 0px; }
+
+.header--logo {
+  margin-left: 100px; }
 
 /*-------FOOTER-------*/
 footer {
@@ -189,7 +192,12 @@ input {
   .header__titulo--font {
     font-size: 3rem; }
   .header--background {
-    margin: 0px 0px 10px 0px; }
+    margin: 0px 0px 10px 0px;
+    background-size: 93%; }
+  .header--logo {
+    margin-left: 40px;
+    height: 80%;
+    width: 60%; }
   .plantaLibros__boton--margin {
     margin-top: 8px; }
   #plantaLibros__buscador {
@@ -228,7 +236,12 @@ input {
   .header__titulo--font {
     font-size: 2rem; }
   .header--background {
-    margin: 0px 0px 3px 0px; }
+    margin: 0px 0px 10px 0px;
+    background-image: url(../imagenes/headerTop2.png); }
+  .header--logo {
+    margin-left: 65px;
+    height: 70%;
+    width: 45%; }
   #libros__buscador {
     height: 250px;
     font-size: 1rem; }
