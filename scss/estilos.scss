@@ -1,3 +1,5 @@
+$verde: rgb(71, 184, 86); 
+
 /*-------HEADER-------*/
 .header__titulo--font {
     font-size: 5rem;
@@ -17,7 +19,7 @@
 footer {
     color: white;
     text-decoration: none;
-    background-image: url(../imagenes/backgrounds/bgdpgreen2.png);
+    background-image: url(../imagenes/footer/bgdpgreen.png);
 
     p {
         color: rgb(5, 5, 5);
@@ -57,7 +59,7 @@ footer {
 
 /*-------GENERAL-------*/   
 .menu__button--background {
-    background-color: green;
+    background-color: $verde;
 }
 
 ul {
@@ -93,22 +95,7 @@ ul {
     margin-top: 15px;
 }
 
-.index__presentacion--margin {
-    margin: 15px;
-}
-
-.accordion-button {
-    background-color: rgb(150, 187, 150);
-}
-
-.accordion-button:not(.collapsed) {
-    color: black;
-    background-color: rgb(103, 141, 103);
-}
-
 /*-------INDEX-------*/
-
-
 .frame {
 	text-align: center;	
 	position: relative;
@@ -169,6 +156,10 @@ select {
 .plantaLibros__cards--margin {
     padding: 10px;
     margin: 15px;
+}
+
+.buscador__button--combinar {
+    margin-top: 15px;
 }
 
 .plantaLibros_titulos {
@@ -243,7 +234,7 @@ input {
 
 /*-------CONTACTO-------*/
 .contacto {
-    background-image: url(../imagenes/contacto.jpg);
+    background-image: url(../imagenes/contacto/contacto.jpg);
 }
 
 .contacto__formulario {
@@ -277,11 +268,52 @@ input {
             height: 150px;
             font-size: .7rem;   
     }
+    
 
     select {
         :hover {
             font-size: .8rem;
         }
+    }
+
+    .frame {
+        text-align: center;	
+        position: relative;
+        cursor: pointer;	
+        margin: 3px; 
+
+        h5 {
+            font-weight: 700;
+        }
+    }
+
+    .frame img {
+        width: 162px;
+        height: 240px;
+    }
+
+    .frame .details {
+        width: 90%;
+        height: 90%;	
+        padding: 5%;
+        position: absolute;
+        content: "";
+        top: 5%;
+        left: 25%;
+        transform: translate(0%) rotateY(0deg);
+        transform-origin: 50%;
+        background: rgba(71, 184, 86, 0.9);	
+        opacity: 1;	
+    }
+
+    .details {
+        p {
+            font-size: .9rem;
+        }
+    }
+
+    .plantaLibros_titulos {
+        margin-bottom: 5px;
     }
 }
 
@@ -324,5 +356,53 @@ input {
     .libros__cards--margin {
         margin: 3px;
         width: fit-content;
+    }
+
+    .frame {
+        text-align: center;	
+        position: relative;
+        cursor: pointer;	
+        margin: 3px; 
+
+        h5 {
+            font-weight: 700;
+        }
+    }
+
+    .frame img {
+        width: 270px;
+        height: 400px;
+    }
+
+    .frame .details {
+        width: 80%;
+        height: 70%;	
+        padding: 10%;
+        position: absolute;
+        content: "";
+        top: 10%;
+        left: 11%;
+        transform: translate(0%) rotateY(0deg);
+        transform-origin: 50%;
+        background: rgba(71, 184, 86, 0.9);	
+        opacity: 1;	
+    }
+
+    .details {
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .contacto__formulario {
+        textarea {
+            margin: 0px 0px 20px 50px;
+            width: 200px;
+            height: 100px;
+        }
+    }
+
+    footer {
+        background-image: url(../imagenes/footer/bgdpgreen-responsive.png);
     }
 }

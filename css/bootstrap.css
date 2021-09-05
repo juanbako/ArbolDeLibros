@@ -3002,13 +3002,14 @@ textarea.form-control-lg {
 
 .btn-success {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: rgb(71, 184, 86);
+  border-color: rgb(71, 184, 86);
 }
 .btn-success:hover {
-  color: #fff;
-  background-color: #157347;
-  border-color: #146c43;
+  color: rgb(8, 8, 8);
+  font-weight: 600;
+  background-color: rgb(71, 184, 86);
+  border-color: rgb(56, 141, 67);
 }
 .btn-check:focus + .btn-success, .btn-success:focus {
   color: #fff;
@@ -3900,12 +3901,14 @@ textarea.form-control-lg {
   background: none;
   border: 0;
   color: #1f7406;
+  font-weight: 500;
   border-radius: 0.25rem;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: rgb(241, 234, 234);
-  background-color: #1f7406;
+  color: rgb(12, 12, 12);
+  font-weight: bold;
+  background-color: rgb(71, 184, 86);
 }
 
 .nav-fill > .nav-link,
