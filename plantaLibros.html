@@ -30,6 +30,7 @@
                 <div class="navbar nav-pills navbar-expand-lg navbar-dark ">
                     <button class="navbar-toggler menu__button--background" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
+                        <span class="menu__button--responsive">Menu</span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav nav-pills me-auto mb-2 mb-lg-0">
@@ -63,33 +64,37 @@
         </nav>
 
         <section class="col-md-10 container plantaLibros">
-            <nav class= "row" id="plantaLibros__buscador">
-                <div class="plantaLibros_titulos text-center">
-                    <h4>Combina las experiencias!!</h4>
-                    <h6>Elegi entre nuestros combos o arma el tuyo.</h6>
-                </div>
+            <nav class= "col-md-12 buscador--padding" id="libros__buscador">
+                <h4 class="text-center">Combina las experiencias!!</h4>
+                <nav class="row">
+                    <div class="col-md-12 buscador__button--margin">
+                        <label>Tipo de planta</label>
+                        <select>
+                            <option>De interior</option>
+                            <option>De exterior</option>
+                        </select>
+                    </div>
+                </nav>
+
+                <nav>
+                    <div class="col-md-12 buscador__button--margin">
+                        <label>Libro</label>
+                        <input type="text">
+                    </div>
+                </nav> 
                 
-                <div class="col-md-4 buscador__button--margin">
-                    <label>Tipo de planta</label>
-                    <select>
-                        <option>De interior</option>
-                        <option>De exterior</option>
-                    </select>
-                </div>
-                <div class="col-md-4 buscador__button--margin">
-                    <label>Libro</label>
-                    <input type="text">
-                </div>   
-                <div class="col-md-4 buscador__button--combinar">
-                    <input type="submit" value="Combinar">
-                </div>
+                <nav>
+                    <div class="col-md-12 buscador__button--combinar">
+                        <input type="submit" value="Combinar">
+                    </div>
+                </nav>
             </nav>
 
             <div class="row justify-content-evenly">
                 <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
                     <img src="./imagenes/combos/chicaDelMilagro.png" class="card-img-top" alt="combo">
                     <div class="card-body">
-                        <h5 class="card-title">Chica del del milagro</h5>
+                        <h5 class="card-title">La chica del del milagro</h5>
                         <p class="card-text">Descripcion del combo</p>
                         <a href="#" class="btn btn-success">Comprar</a>
                     </div>
@@ -105,7 +110,7 @@
                 </div>
                 
                 <div class="col-md-3 card shadow-lg p-3 mb-5 bg-body rounded plantaLibros__cards--margin">
-                    <img src="./imagenes/combos/elRio.jpg" class="card-img-top" alt="combo">
+                    <img src="./imagenes/combos/elRio.png" class="card-img-top" alt="combo">
                     <div class="card-body">
                         <h5 class="card-title">El rio</h5>
                         <p class="card-text">Descripcion del combo</p>

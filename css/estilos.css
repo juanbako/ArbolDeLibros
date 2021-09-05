@@ -49,6 +49,9 @@ footer {
 .menu__button--background {
   background-color: #47b856; }
 
+.menu__button--responsive {
+  display: none; }
+
 ul {
   list-style: none; }
   ul li {
@@ -67,6 +70,9 @@ ul {
 
 .buscador__button--margin {
   margin-top: 15px; }
+
+.buscador--padding {
+  padding: 10px; }
 
 /*-------INDEX-------*/
 .frame {
@@ -148,9 +154,6 @@ select {
   opacity: 1; }
 
 /*-------LIBROS-------*/
-.libros {
-  padding: 10px; }
-
 #libros__buscador {
   height: 200px;
   background-image: url(../imagenes/fondoBuscador.jpg);
@@ -168,9 +171,6 @@ input {
     width: auto;
     height: auto;
     font-size: 1.1rem; }
-
-.buscador__button--margin {
-  margin-top: 15px; }
 
 .libros__cards--margin {
   margin: 15px; }
@@ -242,6 +242,8 @@ input {
     margin-left: 65px;
     height: 70%;
     width: 45%; }
+  .menu__button--responsive {
+    display: inline; }
   #libros__buscador {
     height: 250px;
     font-size: 1rem; }

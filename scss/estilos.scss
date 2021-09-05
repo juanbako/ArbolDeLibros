@@ -66,6 +66,10 @@ footer {
     background-color: $verde;
 }
 
+.menu__button--responsive {
+    display: none;
+}
+
 ul {
     list-style: none;
         
@@ -97,6 +101,10 @@ ul {
 
 .buscador__button--margin {
     margin-top: 15px;
+}
+
+.buscador--padding {
+    padding: 10px;
 }
 
 /*-------INDEX-------*/
@@ -203,9 +211,6 @@ select {
 }
 
 /*-------LIBROS-------*/
-.libros {
-    padding: 10px;
-}
 
 #libros__buscador {
     height: 200px;
@@ -226,10 +231,6 @@ input {
             height: auto;
             font-size: 1.1rem;
         }    
-}
-
-.buscador__button--margin {
-    margin-top: 15px;
 }
 
 .libros__cards--margin {
@@ -255,7 +256,7 @@ input {
 
 /*-------MEDIA QUERIES-------*/
 
-@media only screen and (max-width: 768px) {   
+@media only screen and (max-width: 768px) {  
     .header__titulo--font {
         font-size: 3rem;
     }
@@ -342,6 +343,10 @@ input {
         margin-left: 65px;
         height: 70%;
         width: 45%;
+    }
+
+    .menu__button--responsive {
+        display: inline;
     }
 
     #libros__buscador {
