@@ -272,6 +272,10 @@ input {
         width: 60%;
     }
 
+    .menu__button--responsive {
+        display: inline;
+    }
+
     .plantaLibros__boton--margin {
         margin-top: 8px;
     }
@@ -329,7 +333,7 @@ input {
     }
 }
 
-@media only screen and (max-width: 361px) {   
+@media only screen and (max-width: 414px) {   
     .header__titulo--font {
         font-size: 2rem;
     }
